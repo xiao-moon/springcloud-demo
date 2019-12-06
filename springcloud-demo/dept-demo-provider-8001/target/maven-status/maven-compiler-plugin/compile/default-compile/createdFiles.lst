@@ -1,0 +1,5 @@
+com\springcloud\demo\mapper\DeptMapper.class
+com\springcloud\demo\DeptProvider_8001_APP.class
+com\springcloud\demo\service\impl\DeptServiceImpl.class
+com\springcloud\demo\service\DeptService.class
+com\springcloud\demo\controller\DeptController.class

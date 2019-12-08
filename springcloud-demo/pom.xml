@@ -15,6 +15,11 @@
         <module>dept-demo-eureka-server-7001</module>
         <module>dept-demo-eureka-server-7002</module>
         <module>dept-demo-eureka-server-7003</module>
+        <module>dept-demo-provider-8002</module>
+        <module>dept-demo-provider-8003</module>
+        <module>dept-demo-consumer-feign-91</module>
+        <module>dept-demo-provider-hystrix-8001</module>
+        <module>dept-demo-hystrix-dashboard-9001</module>
     </modules>
 
     <packaging>pom</packaging>

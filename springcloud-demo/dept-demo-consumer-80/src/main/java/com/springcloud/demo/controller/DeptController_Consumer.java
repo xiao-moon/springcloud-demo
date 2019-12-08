@@ -21,7 +21,9 @@ import java.util.List;
 @RestController
 public class DeptController_Consumer {
 
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    //    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    //区分大小写，必须要和eureka服务端页面上的Application名称一致
+    private static final String REST_URL_PREFIX = "http://DEPT-DEMO-PROVIDER";
     private Logger logger = LoggerFactory.getLogger(DeptController_Consumer.class);
     /**
      * 使用restTemplate访问restful接口非常的简单粗暴无脑。
@@ -43,12 +45,12 @@ public class DeptController_Consumer {
     }
 
     /**
-    *@Description: 明天看第20章
-    *@Param: 
-    *@return: 
-    *@Author: 小月
-    *@date: 
-    */
+     * @Description: 明天看第20章
+     * @Param:
+     * @return:
+     * @Author: 小月
+     * @date:
+     */
     @SuppressWarnings("unchecked")
     @RequestMapping(value = "/consumer/dept/list")
     public List<Dept> list() {

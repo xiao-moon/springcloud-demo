@@ -1,0 +1,15 @@
+#监控的是服务提供者，需要在服务提供者的pom文件中添加actuator的依赖
+#
+server:
+  port: 9001   #访问路径 http://localhost:9001/hystrix
+spring:
+  application:
+    name: hystrix-dashboard
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-7001:7001/eureka/,http://eureka-7002:7002/eureka/,http://eureka-7003:7003/eureka/
+feign:
+  hystrix:
+    enabled: true

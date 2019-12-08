@@ -42,5 +42,5 @@ eureka:
 info:
   app.name: springcloud-demo
   company.name: www.xjx.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+  build.artifactId: dept-demo-provider-8001
+  build.version: 1.0-SNAPSHOT

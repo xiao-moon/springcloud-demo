@@ -17,3 +17,4 @@ public class DeptEurekaServer_7001_APP {
         SpringApplication.run(DeptEurekaServer_7001_APP.class,args);
     }
 }
+

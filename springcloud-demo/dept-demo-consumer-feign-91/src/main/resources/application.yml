@@ -1,11 +1,19 @@
 server:
   port: 91
+
+spring:
+  application:
+    name: dept-demo-consumer-feign
+
 eureka:
   client:
-    register-with-eureka: false
+    register-with-eureka: true
     service-url:
       defaultZone: http://eureka-7001:7001/eureka/,http://eureka-7002:7002/eureka/,http://eureka-7003:7003/eureka/
+  instance:
+    hostname: dept-demo-consumer-feign-91
 
 feign:
   hystrix:
     enabled: true
+

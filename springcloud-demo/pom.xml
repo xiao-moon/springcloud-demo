@@ -20,6 +20,8 @@
         <module>dept-demo-consumer-feign-91</module>
         <module>dept-demo-provider-hystrix-8001</module>
         <module>dept-demo-hystrix-dashboard-9001</module>
+        <module>dept-demo-zuul-gateway-9527</module>
+        <module>dept-demo-config-server-3344</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -94,7 +96,7 @@
             <dependency>
                 <groupId>log4j</groupId>
                 <artifactId>log4j</artifactId>
-                <version>${lombok.version}</version>
+                <version>${log4j.version}</version>
             </dependency>
 
             <dependency>

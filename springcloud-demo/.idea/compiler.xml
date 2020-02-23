@@ -12,10 +12,12 @@
         <module name="dept-demo-provider-8003" />
         <module name="dept-demo-provider-8002" />
         <module name="dept-demo-provider-8001" />
+        <module name="dept-demo-consumer-80" />
         <module name="dept-demo-eureka-server-7003" />
         <module name="dept-demo-eureka-server-7002" />
         <module name="dept-demo-eureka-server-7001" />
-        <module name="dept-demo-consumer-80" />
+        <module name="dept-demo-zuul-gateway-9527" />
+        <module name="dept-demo-config-server-3344" />
         <module name="dept-demo-hystrix-dashboard-9001" />
       </profile>
     </annotationProcessing>

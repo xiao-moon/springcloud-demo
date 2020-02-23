@@ -1,0 +1,54 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: dept-demo-zuul-gateway
+
+eureka:
+  client:
+    service-url:
+     defaultZone: http://eureka-7001:7001/eureka/,http://eureka-7002:7002/eureka/,http://eureka-7003:7003/eureka/
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+
+#配置actuator/info信息，需要在pom中引入spring-boot-starter-actuator
+info:
+  app.name: springcloud-demo
+  company.name: www.xjx.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+
+#spring cloud zuul已经帮我们做了默认配置。默认情况下，Zuul会代理所有注册到Eureka Server的微服务，
+#并且Zuul的路由规则如下：http://ZUUL_HOST:ZUUL_PORT/微服务在Eureka上的serviceId/**会被转发到serviceId对应的微服务。
+#zuul:
+#  routes:
+#    api-producer:
+#      path: /producer/**
+#      serviceId: spring-cloud-producer
+zuul:
+  ignored-services: "*"   #设置拦截的路径，*表示下面dept-demo-provider服务的所有路径都会被拦截，必须使用/mydept/**的映射
+  routes:
+    mydept.serviceId: dept-demo-consumer-feign  #真实地址
+    mydept.path: /mydept/**   #配置的映射地址
+#    mydept.url: http://localhost:91/**
+  host:
+    connect-timeout-millis: 60000
+#    socket超时时间，如果使用service-id方式是不用配置的
+    socket-timeout-millis: 3000
+  ribbon-isolation-strategy: thread
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000
+feign:
+  hystrix:
+    enabled: true
+
+
+

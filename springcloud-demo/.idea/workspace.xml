@@ -2,77 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="632aa902-3608-4e3c-9602-a58e8f5e9a6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dept-demo-api/src/main/java/com/springcloud/demo/service/DeptClientRemoteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-api/src/main/java/com/springcloud/demo/service/DeptClientRemoteServiceHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-consumer-feign-91/dept-demo-consumer-feign-91.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-consumer-feign-91/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-consumer-feign-91/src/main/java/com/springcloud/demo/DeptConsumer_91_APP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-consumer-feign-91/src/main/java/com/springcloud/demo/controller/DeptFeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-consumer-feign-91/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-hystrix-dashboard-9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-hystrix-dashboard-9001/src/main/java/com/springcloud/demo/DeptHystrixDashboard_9001_APP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-hystrix-dashboard-9001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8002/dept-demo-provider-8002.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8002/src/main/java/com/springcloud/demo/DeptProvider_8002_APP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8002/src/main/java/com/springcloud/demo/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8002/src/main/java/com/springcloud/demo/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8002/src/main/java/com/springcloud/demo/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8002/src/main/java/com/springcloud/demo/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8002/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8002/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8002/src/test/java/com/springcloud/demo/DeptProvider_8002_APP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8003/src/main/java/com/springcloud/demo/DeptProvider_8003_APP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8003/src/main/java/com/springcloud/demo/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8003/src/main/java/com/springcloud/demo/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8003/src/main/java/com/springcloud/demo/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8003/src/main/java/com/springcloud/demo/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8003/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8003/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8003/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-hystrix-8001/dept-demo-provider-hystrix-8001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-hystrix-8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-hystrix-8001/src/main/java/spring/cloud/demo/DeptProvider_hystrix_8001_APP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-hystrix-8001/src/main/java/spring/cloud/demo/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-hystrix-8001/src/main/java/spring/cloud/demo/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-hystrix-8001/src/main/java/spring/cloud/demo/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-hystrix-8001/src/main/java/spring/cloud/demo/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-hystrix-8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-hystrix-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dept-demo-provider-hystrix-8001/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dept-demo-config-server-3344/dept-demo-config-server-3344.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dept-demo-config-server-3344/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dept-demo-config-server-3344/src/main/java/com/springcloud/demo/DeptConfigServer_3344_APP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dept-demo-config-server-3344/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dept-demo-provider-8001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dept-demo-zuul-gateway-9527/dept-demo-zuul-gateway-9527.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dept-demo-zuul-gateway-9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dept-demo-zuul-gateway-9527/src/main/java/com/springcloud/demo/DeptZuul_9527_APP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dept-demo-zuul-gateway-9527/src/main/java/com/springcloud/demo/config/DeptFallbackProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dept-demo-zuul-gateway-9527/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-api/src/main/java/com/springcloud/demo/entities/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-api/src/main/java/com/springcloud/demo/entities/Dept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-api/target/classes/com/springcloud/demo/entities/Dept.class" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-api/target/classes/com/springcloud/demo/entities/Dept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-api/target/springcloud-demo.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-api/target/springcloud-demo.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-consumer-80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-consumer-80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-consumer-80/src/main/java/com/springcloud/demo/DeptConsumer_80_APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-consumer-80/src/main/java/com/springcloud/demo/DeptConsumer_80_APP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-consumer-80/src/main/java/com/springcloud/demo/cfgbeans/ConfigBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-consumer-80/src/main/java/com/springcloud/demo/cfgbeans/ConfigBeans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-consumer-80/src/main/java/com/springcloud/demo/controller/DeptController_Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-consumer-80/src/main/java/com/springcloud/demo/controller/DeptController_Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-consumer-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-consumer-80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-consumer-80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-consumer-80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-consumer-80/target/classes/com/springcloud/demo/DeptConsumer_80_APP.class" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-consumer-80/target/classes/com/springcloud/demo/DeptConsumer_80_APP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-consumer-80/target/classes/com/springcloud/demo/cfgbeans/ConfigBeans.class" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-consumer-80/target/classes/com/springcloud/demo/cfgbeans/ConfigBeans.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-consumer-80/target/classes/com/springcloud/demo/controller/DeptController_Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-consumer-80/target/classes/com/springcloud/demo/controller/DeptController_Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-eureka-server-7001/src/main/java/com/springcloud/demo/DeptEurekaServer_7001_APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-eureka-server-7001/src/main/java/com/springcloud/demo/DeptEurekaServer_7001_APP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-eureka-server-7002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-eureka-server-7002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-eureka-server-7002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-eureka-server-7002/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-eureka-server-7003/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-eureka-server-7003/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-provider-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-provider-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-provider-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-provider-8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-provider-8001/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-provider-8001/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-provider-8001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-provider-8001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-provider-8001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-provider-8001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-provider-8001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dept-demo-provider-8001/target/springcloud-demo.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-provider-8001/target/springcloud-demo.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dept-demo-consumer-feign-91/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-consumer-feign-91/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dept-demo-consumer-feign-91/src/main/java/com/springcloud/demo/DeptConsumer_91_APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-consumer-feign-91/src/main/java/com/springcloud/demo/DeptConsumer_91_APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dept-demo-consumer-feign-91/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dept-demo-consumer-feign-91/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dept-demo-provider-8001/src/main/resources/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <list id="8212116c-d55c-4dc8-b425-ee25e1626532" name="DO NOT COMMIT" comment="DO NOT COMMIT">
@@ -149,7 +95,20 @@
       <recent name="D:\IDEA\IDEA_WORKSPACE\springcloud-demo\springcloud-demo\dept-demo-provider-8002\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DeptHystrixDashboard_9001_APP">
+  <component name="RunManager" selected="Spring Boot.DeptConsumer_91_APP">
+    <configuration name="DeptConfigServer_3344_APP" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="dept-demo-config-server-3344" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.demo.DeptConfigServer_3344_APP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeptConsumer_80_APP" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="dept-demo-consumer-80" />
       <extension name="coverage">
@@ -280,7 +239,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeptZuul_9527_APP" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="dept-demo-zuul-gateway-9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.demo.DeptZuul_9527_APP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Spring Boot.DeptZuul_9527_APP" />
       <item itemvalue="Spring Boot.DeptConsumer_91_APP" />
       <item itemvalue="Spring Boot.DeptHystrixDashboard_9001_APP" />
       <item itemvalue="Spring Boot.DeptProvider_8003_APP" />
@@ -291,6 +264,7 @@
       <item itemvalue="Spring Boot.DeptEurekaServer_7003_APP" />
       <item itemvalue="Spring Boot.DeptConsumer_80_APP" />
       <item itemvalue="Spring Boot.DeptEurekaServer_7001_APP" />
+      <item itemvalue="Spring Boot.DeptConfigServer_3344_APP" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -322,7 +296,15 @@
       <workItem from="1575778853183" duration="282000" />
       <workItem from="1575781252168" duration="12741000" />
       <workItem from="1575802773361" duration="23000" />
-      <workItem from="1575803488220" duration="13467000" />
+      <workItem from="1575803488220" duration="13771000" />
+      <workItem from="1575890570030" duration="5331000" />
+      <workItem from="1576161634036" duration="2902000" />
+      <workItem from="1576235461807" duration="15910000" />
+      <workItem from="1576421031716" duration="455000" />
+      <workItem from="1576516227325" duration="250000" />
+      <workItem from="1576516618298" duration="2027000" />
+      <workItem from="1576559928598" duration="1024000" />
+      <workItem from="1576562116442" duration="1524000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1575604108085</created>
@@ -331,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575604108085</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ribbon,feign,hystrix,dashboard">
+      <created>1575823737620</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575823737620</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +328,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试提交" />
+    <MESSAGE value="ribbon,feign,hystrix,dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="ribbon,feign,hystrix,dashboard" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1575800606685">
@@ -350,66 +340,66 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575707220585" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1575797399893">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1576311344645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575797399893" />
-    <state x="336" y="112" key="CommitChangelistDialog2" timestamp="1575604107009">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576311344645" />
+    <state x="336" y="112" key="CommitChangelistDialog2" timestamp="1575823720595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="336" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575604107009" />
+    <state x="336" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575823720595" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1575604046823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575604046823" />
-    <state width="1877" height="313" key="GridCell.Tab.0.bottom" timestamp="1575823661843">
+    <state width="1877" height="313" key="GridCell.Tab.0.bottom" timestamp="1576338656525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575823661843" />
-    <state width="1877" height="313" key="GridCell.Tab.0.center" timestamp="1575823661843">
+    <state width="1877" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576338656525" />
+    <state width="1877" height="313" key="GridCell.Tab.0.center" timestamp="1576338656524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575823661843" />
-    <state width="1877" height="313" key="GridCell.Tab.0.left" timestamp="1575823661843">
+    <state width="1877" height="313" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576338656524" />
+    <state width="1877" height="313" key="GridCell.Tab.0.left" timestamp="1576338656524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575823661843" />
-    <state width="1877" height="313" key="GridCell.Tab.0.right" timestamp="1575823661843">
+    <state width="1877" height="313" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576338656524" />
+    <state width="1877" height="313" key="GridCell.Tab.0.right" timestamp="1576338656525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575823661843" />
-    <state width="1877" height="313" key="GridCell.Tab.1.bottom" timestamp="1575823661843">
+    <state width="1877" height="313" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576338656525" />
+    <state width="1877" height="313" key="GridCell.Tab.1.bottom" timestamp="1576338656525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575823661843" />
-    <state width="1877" height="313" key="GridCell.Tab.1.center" timestamp="1575823661843">
+    <state width="1877" height="313" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576338656525" />
+    <state width="1877" height="313" key="GridCell.Tab.1.center" timestamp="1576338656525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575823661843" />
-    <state width="1877" height="313" key="GridCell.Tab.1.left" timestamp="1575823661843">
+    <state width="1877" height="313" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576338656525" />
+    <state width="1877" height="313" key="GridCell.Tab.1.left" timestamp="1576338656525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575823661843" />
-    <state width="1877" height="313" key="GridCell.Tab.1.right" timestamp="1575823661843">
+    <state width="1877" height="313" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576338656525" />
+    <state width="1877" height="313" key="GridCell.Tab.1.right" timestamp="1576338656525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575823661843" />
-    <state width="1877" height="313" key="GridCell.Tab.2.bottom" timestamp="1575823661843">
+    <state width="1877" height="313" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576338656525" />
+    <state width="1877" height="313" key="GridCell.Tab.2.bottom" timestamp="1576338656525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575823661843" />
-    <state width="1877" height="313" key="GridCell.Tab.2.center" timestamp="1575823661843">
+    <state width="1877" height="313" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576338656525" />
+    <state width="1877" height="313" key="GridCell.Tab.2.center" timestamp="1576338656525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575823661843" />
-    <state width="1877" height="313" key="GridCell.Tab.2.left" timestamp="1575823661843">
+    <state width="1877" height="313" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576338656525" />
+    <state width="1877" height="313" key="GridCell.Tab.2.left" timestamp="1576338656525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575823661843" />
-    <state width="1877" height="313" key="GridCell.Tab.2.right" timestamp="1575823661843">
+    <state width="1877" height="313" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576338656525" />
+    <state width="1877" height="313" key="GridCell.Tab.2.right" timestamp="1576338656525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575823661843" />
+    <state width="1877" height="313" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576338656525" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1575801819817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -418,22 +408,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="435" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575604035381" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1575604111959">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1575823748219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575604111959" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575823748219" />
     <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1575615901642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="759" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575615901642" />
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575823639382">
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582431637413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575823639382" />
-    <state x="334" y="214" key="new project wizard" timestamp="1575800021025">
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582431637413" />
+    <state x="334" y="214" key="new project wizard" timestamp="1576421476066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1575800021025" />
+    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1576421476066" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1575387241726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

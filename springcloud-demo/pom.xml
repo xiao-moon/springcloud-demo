@@ -22,6 +22,7 @@
         <module>dept-demo-hystrix-dashboard-9001</module>
         <module>dept-demo-zuul-gateway-9527</module>
         <module>dept-demo-config-server-3344</module>
+        <module>dept-demo-gateWay-9557</module>
     </modules>
 
     <packaging>pom</packaging>

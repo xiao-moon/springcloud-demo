@@ -4,23 +4,67 @@ server:
 spring:
   application:
     name: dept-demo-gateWay
-  cloud:
-    gateway:
-      routes:
-        - id: gateway-test
-          uri: lb://dept-demo-provider/dept/**   #目标地址
-          predicates:
-            - Path=/dept/**   #映射地址
+  redis:
+    host: localhost #192.168.8.117
+    port: 6379 #26379
+    password:
+    jedis:
+      pool:
+        max-active: 8
+#  cloud:
+#    gateway:
+#      routes:
+
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: gateway-test
+#          uri: lb://soa-security-service/**   #目标地址
+#          predicates:
+#            - Path=/soa-security-service/**   #映射地址
+#          filters:
+#          #限流
+#          - name: RequestRateLimiter
+#            args:
+#              key-resolver: '#{@hostAddrKeyResolver}'
+#              redis-rate-limiter.replenishRate: 1
+#              redis-rate-limiter.burstCapacity: 3
+#          #熔断
+#          - name: Hystrix
+#            args:
+#              name: fallbackcmd
+#              fallbackUri: forward:/incaseoffailureusethis
+#          #重试
+#          - name: Retry
+#            args:
+#              retries: 3  #重试次数，默认值是 3 次
+#              statuses: BAD_GATEWAY
+#
+#        - id: gateway-test
+#          uri: lb://dept-demo-provider/dept/**   #目标地址
+#          predicates:
+#            - Path=/dept/**   #映射地址
+#          filters:
+#            #熔断
+#            - name: Hystrix
+#              args:
+#                name: fallbackcmd
+#                fallbackUri: forward:/fallback
 
 
-
+# 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
 
 
 
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
-      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://192.168.8.119:8081/eureka #http://localhost:7001/eureka/
   instance:
     instance-id: dept-demo-gateWay-9557
     prefer-ip-address: true
